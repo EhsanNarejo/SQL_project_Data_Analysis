@@ -55,7 +55,11 @@ LIMIT 20;
 ```
 ### Insights
 
-The highest-paying Data Analyst roles are predominantly remote or listed as “Anywhere,” showing a strong presence of flexible work opportunities in top salary bands. Salaries vary significantly, with several roles offering well above-average compensation and one extreme outlier pushing the upper limit of the dataset. Overall, the highest-paying positions are mostly associated with senior-level analyst and analytics leadership roles.
+- The highest-paying Data Analyst roles are not limited to traditional analyst positions. Instead, the top salaries are dominated by senior and specialised roles such as Analytics Engineer, Director, and Principal Data Analyst.
+
+- Companies like Netflix, Meta, and Atlassian appear frequently at the top end, showing that large tech firms drive most high-compensation roles. While a standard Data Analyst title does appear at the top, it is likely an outlier, with most salaries clustering in the ~$180K–$450K range.
+
+- Overall, the data shows that seniority and specialization matter more than the job title itself when it comes to salary.
 
 ### 2. Skills for Top Paying Jobs
 
@@ -89,7 +93,12 @@ ORDER BY salary_year_avg DESC;
 ```
 ### Insights
 
-The highest-paying Data Analyst roles consistently require a combination of core technical skills such as SQL and Python, alongside strong data manipulation and analysis libraries like Pandas and NumPy. In addition, most top-paying positions demand experience with BI tools (Tableau, Power BI) and cloud/data platforms such as AWS, Azure, Snowflake, and Databricks. Overall, the results show that high salaries are associated with a well-rounded skill set spanning programming, data engineering tools, and modern cloud-based analytics technologies.
+- The highest-paying Data Analyst roles require a mix of core analytics skills and advanced engineering tools. SQL and Python appear consistently across almost all roles, forming the foundation of high-paying analytics work.
+
+- As salaries increase, the skill set expands into cloud and engineering technologies such as AWS, Databricks, Spark, Kubernetes, and Scala, especially in companies like Netflix and AT&T. Traditional BI tools like Tableau and Power BI still appear but are no longer the main differentiator.
+
+- Overall, the data shows that the highest salaries are linked to hybrid roles that combine data analysis with software engineering and cloud infrastructure skills.
+
 
 ### 3. Most In-Demand Skills for Data Analysts
 
@@ -112,7 +121,9 @@ LIMIT 5;
 ```
 ### Insights
 
-Most in-demand skills for Data Analyst roles are led by SQL, which appears as the dominant requirement across remote job postings, highlighting its importance for data querying and management. Excel remains a core foundational tool, followed closely by Python for data analysis and automation. BI tools such as Tableau and Power BI also feature strongly, showing that employers value both technical analysis skills and data visualization capabilities in modern analytics roles.
+- SQL is the most in-demand skill by a wide margin, making it the core requirement for Data Analyst roles. Python follows as the key programming language for analysis and automation, while Excel remains a strong baseline skill expected in most roles.
+
+- Visualization tools like Tableau and Power BI also rank highly, showing that employers expect analysts to not only work with data but also communicate insights effectively.
 
 ### 4. Skills Based on Salary
 
@@ -135,7 +146,11 @@ ORDER BY avg_salary DESC
 LIMIT 25;
 ```
 ### Insights
-Skills associated with higher average salaries in Data Analyst roles are strongly aligned with big data and engineering-focused tools, with PySpark, Databricks, and cloud-related technologies leading the list. Programming and data processing libraries such as Pandas and NumPy also appear in higher-paying roles, reflecting the value of advanced data manipulation skills. Overall, the results suggest that analysts who combine traditional analytics skills with big data, cloud, and engineering tools tend to earn significantly higher salaries.
+- Higher salaries for Data Analyst roles are strongly linked to big data and engineering-heavy skills. Technologies like PySpark, Scala, Databricks, and Kubernetes stand out, showing that distributed data processing and cloud environments are key drivers of higher pay.
+
+- Interestingly, several software engineering tools and languages (like Go, C, and TypeScript) also appear, suggesting that the highest-paying “data analyst” roles often overlap with data engineering or analytics engineering responsibilities.
+
+- Overall, the trend is clear: moving beyond traditional analytics tools into engineering and cloud ecosystems significantly increases earning potential.
 
 
 ### 5. Most Optimal Skills to Learn
@@ -143,45 +158,31 @@ Skills associated with higher average salaries in Data Analyst roles are strongl
 This query combines both demand and salary insights to identify skills that are frequently requested and also associated with higher salaries in remote Data Analyst roles.
 
 ```sql
-WITH skills_demand AS (
-    SELECT
-        skills_dim.skill_id,
-        skills_dim.skills,
-        COUNT(skills_job_dim.job_id) AS demand_count
-    FROM job_postings_fact
-    INNER JOIN skills_job_dim 
-        ON job_postings_fact.job_id = skills_job_dim.job_id
-    INNER JOIN skills_dim 
-        ON skills_job_dim.skill_id = skills_dim.skill_id
-    WHERE job_title_short = 'Data Analyst'
-        AND job_work_from_home = TRUE
-    GROUP BY skills_dim.skill_id, skills_dim.skills
-),
-average_salary AS (
-    SELECT
-        skills_job_dim.skill_id,
-        AVG(job_postings_fact.salary_year_avg) AS avg_salary
-    FROM job_postings_fact
-    INNER JOIN skills_job_dim 
-        ON job_postings_fact.job_id = skills_job_dim.job_id
-    WHERE job_title_short = 'Data Analyst'
-        AND salary_year_avg IS NOT NULL
-        AND job_work_from_home = TRUE
-    GROUP BY skills_job_dim.skill_id
-)
-SELECT
-    skills_demand.skills,
-    skills_demand.demand_count,
-    ROUND(average_salary.avg_salary, 2) AS avg_salary
-FROM skills_demand
-INNER JOIN average_salary 
-    ON skills_demand.skill_id = average_salary.skill_id
-ORDER BY demand_count DESC, avg_salary DESC
+SELECT skills_dim.skill_id,
+    skills_dim.skills,
+    COUNT(skills_job_dim.job_id) AS demand_count,
+    ROUND(AVG(job_postings_fact.salary_year_avg), 0) AS avg_salary
+FROM job_postings_fact
+    INNER JOIN skills_job_dim ON job_postings_fact.job_id = skills_job_dim.job_id
+    INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+WHERE job_title_short = 'Data Analyst'
+    AND salary_year_avg IS NOT NULL -- AND job_work_from_home = True 
+GROUP BY skills_dim.skill_id
+HAVING COUNT(skills_job_dim.job_id) > 10
+ORDER BY demand_count DESC,
+    -- move demand_count to be first in the ORDER BY
+    avg_salary DESC
+LIMIT 25;nd_count DESC, avg_salary DESC
 LIMIT 10;
 ```
 ### Insights
 
-The most optimal skills for Data Analyst roles are those that balance both high demand and strong salary potential. Core tools such as SQL, Excel, Python, Tableau, and Power BI consistently appear as the most valuable, indicating they are essential for breaking into the field. At the same time, cloud platforms and BI tools like Azure and Looker offer higher earning potential, showing that combining foundational analytics skills with modern data platforms leads to the best career outcomes.
+- The most valuable skills are those that balance both high demand and strong salary outcomes. Core tools like SQL, Python, Excel, Tableau, and Power BI remain essential for most Data Analyst roles and form the baseline for employability.
+
+- Higher-paying opportunities appear when these core skills are combined with cloud and big data technologies such as AWS, Azure, Snowflake, Spark, and Databricks. BI tools like Looker also show strong salary potential compared to traditional reporting tools.
+
+- Overall, the best career strategy is to build a strong foundation in core analytics tools, then layer in cloud and big data skills to maximize both demand and salary potential.
+
 
 
 Each query not only served to answer a specific question but also to improve my understanding of SQL and database analysis. Through this project, I learned to leverage SQL's powerful data manipulation capabilities to derive meaningful insights from complex datasets.

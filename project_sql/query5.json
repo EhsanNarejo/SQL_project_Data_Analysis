@@ -1,52 +1,152 @@
 [
   {
+    "skill_id": 0,
     "skills": "sql",
-    "demand_count": "7291",
-    "avg_salary": "97237.16"
+    "demand_count": "10641",
+    "avg_salary": "101184"
   },
   {
+    "skill_id": 184,
     "skills": "excel",
-    "demand_count": "4611",
-    "avg_salary": "87288.21"
+    "demand_count": "8716",
+    "avg_salary": "88385"
   },
   {
+    "skill_id": 1,
     "skills": "python",
-    "demand_count": "4330",
-    "avg_salary": "101397.22"
+    "demand_count": "7064",
+    "avg_salary": "105238"
   },
   {
+    "skill_id": 183,
     "skills": "tableau",
-    "demand_count": "3745",
-    "avg_salary": "99287.65"
+    "demand_count": "5842",
+    "avg_salary": "100835"
   },
   {
+    "skill_id": 186,
     "skills": "power bi",
-    "demand_count": "2609",
-    "avg_salary": "97431.30"
+    "demand_count": "4620",
+    "avg_salary": "96630"
   },
   {
+    "skill_id": 2,
     "skills": "r",
-    "demand_count": "2142",
-    "avg_salary": "100498.77"
+    "demand_count": "3792",
+    "avg_salary": "102417"
   },
   {
+    "skill_id": 188,
+    "skills": "word",
+    "demand_count": "1784",
+    "avg_salary": "81106"
+  },
+  {
+    "skill_id": 198,
+    "skills": "powerpoint",
+    "demand_count": "1725",
+    "avg_salary": "88123"
+  },
+  {
+    "skill_id": 194,
     "skills": "sas",
-    "demand_count": "933",
-    "avg_salary": "98902.37"
+    "demand_count": "1680",
+    "avg_salary": "99133"
   },
   {
+    "skill_id": 8,
     "skills": "sas",
-    "demand_count": "933",
-    "avg_salary": "98902.37"
+    "demand_count": "1680",
+    "avg_salary": "99133"
   },
   {
-    "skills": "looker",
-    "demand_count": "868",
-    "avg_salary": "103795.30"
-  },
-  {
+    "skill_id": 74,
     "skills": "azure",
-    "demand_count": "821",
-    "avg_salary": "111225.10"
+    "demand_count": "1120",
+    "avg_salary": "109286"
+  },
+  {
+    "skill_id": 76,
+    "skills": "oracle",
+    "demand_count": "1084",
+    "avg_salary": "101797"
+  },
+  {
+    "skill_id": 77,
+    "skills": "aws",
+    "demand_count": "1077",
+    "avg_salary": "112622"
+  },
+  {
+    "skill_id": 73,
+    "skills": "snowflake",
+    "demand_count": "1069",
+    "avg_salary": "122329"
+  },
+  {
+    "skill_id": 56,
+    "skills": "sql server",
+    "demand_count": "1009",
+    "avg_salary": "98028"
+  },
+  {
+    "skill_id": 185,
+    "skills": "looker",
+    "demand_count": "981",
+    "avg_salary": "106933"
+  },
+  {
+    "skill_id": 213,
+    "skills": "flow",
+    "demand_count": "965",
+    "avg_salary": "97457"
+  },
+  {
+    "skill_id": 12,
+    "skills": "java",
+    "demand_count": "820",
+    "avg_salary": "102482"
+  },
+  {
+    "skill_id": 191,
+    "skills": "sap",
+    "demand_count": "747",
+    "avg_salary": "94185"
+  },
+  {
+    "skill_id": 92,
+    "skills": "spark",
+    "demand_count": "659",
+    "avg_salary": "119794"
+  },
+  {
+    "skill_id": 3,
+    "skills": "go",
+    "demand_count": "655",
+    "avg_salary": "98456"
+  },
+  {
+    "skill_id": 75,
+    "skills": "databricks",
+    "demand_count": "650",
+    "avg_salary": "113103"
+  },
+  {
+    "skill_id": 6,
+    "skills": "javascript",
+    "demand_count": "636",
+    "avg_salary": "97687"
+  },
+  {
+    "skill_id": 234,
+    "skills": "jira",
+    "demand_count": "531",
+    "avg_salary": "109743"
+  },
+  {
+    "skill_id": 193,
+    "skills": "spss",
+    "demand_count": "521",
+    "avg_salary": "85736"
   }
 ]

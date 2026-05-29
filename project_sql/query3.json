@@ -1,22 +1,22 @@
 [
   {
     "skills": "sql",
-    "demand_count": "7291"
-  },
-  {
-    "skills": "excel",
-    "demand_count": "4611"
+    "demand_count": "16082"
   },
   {
     "skills": "python",
-    "demand_count": "4330"
+    "demand_count": "10386"
+  },
+  {
+    "skills": "excel",
+    "demand_count": "9849"
   },
   {
     "skills": "tableau",
-    "demand_count": "3745"
+    "demand_count": "8704"
   },
   {
     "skills": "power bi",
-    "demand_count": "2609"
+    "demand_count": "6300"
   }
 ]

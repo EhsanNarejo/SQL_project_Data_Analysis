@@ -1,15 +1,51 @@
 [
   {
-    "job_id": 226942,
+    "job_id": 142665,
     "job_title": "Data Analyst",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
     "salary_year_avg": "650000.0",
-    "job_posted_date": "2023-02-20 15:13:33",
+    "job_posted_date": "2023-02-20 15:13:44",
     "company_name": "Mantys"
   },
   {
-    "job_id": 547382,
+    "job_id": 1280480,
+    "job_title": "Analytics Engineer (L5) - Live Quality of Experience",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "445000.0",
+    "job_posted_date": "2025-01-04 10:01:54",
+    "company_name": "Netflix"
+  },
+  {
+    "job_id": 1241985,
+    "job_title": "Analytics Engineer (L5) - Live Quality of Experience",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "445000.0",
+    "job_posted_date": "2024-12-01 09:02:08",
+    "company_name": "Netflix"
+  },
+  {
+    "job_id": 1585866,
+    "job_title": "Analytics Engineer - Playback Data (L5)",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "445000.0",
+    "job_posted_date": "2025-06-10 16:02:43",
+    "company_name": "Netflix"
+  },
+  {
+    "job_id": 1009426,
+    "job_title": "Financial & Data Analyst - Pricing (12 months Contract)",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time and Contractor",
+    "salary_year_avg": "385000.0",
+    "job_posted_date": "2024-05-12 16:32:34",
+    "company_name": "Siemens"
+  },
+  {
+    "job_id": 517098,
     "job_title": "Director of Analytics",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
@@ -18,16 +54,34 @@
     "company_name": "Meta"
   },
   {
-    "job_id": 552322,
+    "job_id": 1213707,
+    "job_title": "Director of Engineering - Analytics",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "296910.0",
+    "job_posted_date": "2024-10-08 13:45:36",
+    "company_name": "Confluent"
+  },
+  {
+    "job_id": 1269865,
+    "job_title": "Data Analyst",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "264000.0",
+    "job_posted_date": "2024-12-29 06:44:00",
+    "company_name": "Edge & Node"
+  },
+  {
+    "job_id": 374858,
     "job_title": "Associate Director- Data Insights",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
     "salary_year_avg": "255829.5",
-    "job_posted_date": "2023-06-18 16:03:12",
+    "job_posted_date": "2023-06-18 16:37:49",
     "company_name": "AT&T"
   },
   {
-    "job_id": 99305,
+    "job_id": 743514,
     "job_title": "Data Analyst, Marketing",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
@@ -36,7 +90,34 @@
     "company_name": "Pinterest Job Advertisements"
   },
   {
-    "job_id": 1021647,
+    "job_id": 1246245,
+    "job_title": "AI Deep Learning Quantitative Analyst (Remote)",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "230000.0",
+    "job_posted_date": "2024-12-06 18:00:33",
+    "company_name": "Nurp"
+  },
+  {
+    "job_id": 914996,
+    "job_title": "Product Data Analyst",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "226500.0",
+    "job_posted_date": "2024-03-09 14:01:36",
+    "company_name": "Get It Recruit - Information Technology"
+  },
+  {
+    "job_id": 1021452,
+    "job_title": "Head of FP&A, Data & Analytics",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "224000.0",
+    "job_posted_date": "2024-05-21 09:05:30",
+    "company_name": "Atlassian"
+  },
+  {
+    "job_id": 52534,
     "job_title": "Data Analyst (Hybrid/Remote)",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
@@ -45,7 +126,16 @@
     "company_name": "Uclahealthcareers"
   },
   {
-    "job_id": 168310,
+    "job_id": 905523,
+    "job_title": "Principal Data Science Analyst - CDH - Remote at Mayo Clinic",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "205420.796875",
+    "job_posted_date": "2024-03-04 14:04:46",
+    "company_name": "Mayo Clinic"
+  },
+  {
+    "job_id": 484238,
     "job_title": "Principal Data Analyst (Remote)",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
@@ -54,7 +144,25 @@
     "company_name": "SmartAsset"
   },
   {
-    "job_id": 731368,
+    "job_id": 888452,
+    "job_title": "Medical Analytics",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "198500.0",
+    "job_posted_date": "2024-02-23 15:17:21",
+    "company_name": "Pfizer"
+  },
+  {
+    "job_id": 1246808,
+    "job_title": "Data Analyst (HR & Finance)",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "192000.0",
+    "job_posted_date": "2024-12-07 06:41:42",
+    "company_name": "Smartcat"
+  },
+  {
+    "job_id": 747554,
     "job_title": "Director, Data Analyst - HYBRID",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
@@ -63,120 +171,12 @@
     "company_name": "Inclusively"
   },
   {
-    "job_id": 310660,
+    "job_id": 17448,
     "job_title": "Principal Data Analyst, AV Performance Analysis",
     "job_location": "Anywhere",
     "job_schedule_type": "Full-time",
     "salary_year_avg": "189000.0",
     "job_posted_date": "2023-01-05 00:00:25",
     "company_name": "Motional"
-  },
-  {
-    "job_id": 1749593,
-    "job_title": "Principal Data Analyst",
-    "job_location": "Anywhere",
-    "job_schedule_type": "Full-time",
-    "salary_year_avg": "186000.0",
-    "job_posted_date": "2023-07-11 16:00:05",
-    "company_name": "SmartAsset"
-  },
-  {
-    "job_id": 387860,
-    "job_title": "ERM Data Analyst",
-    "job_location": "Anywhere",
-    "job_schedule_type": "Full-time",
-    "salary_year_avg": "184000.0",
-    "job_posted_date": "2023-06-09 08:01:04",
-    "company_name": "Get It Recruit - Information Technology"
-  },
-  {
-    "job_id": 1352513,
-    "job_title": "REMOTE Director of Data Analytics",
-    "job_location": "Anywhere",
-    "job_schedule_type": "Full-time",
-    "salary_year_avg": "170000.0",
-    "job_posted_date": "2023-08-09 14:02:45",
-    "company_name": "A-Line Staffing Solutions"
-  },
-  {
-    "job_id": 987523,
-    "job_title": "Azure Data Python Consultant - contract to HIRE - Citizen or Perm...",
-    "job_location": "Anywhere",
-    "job_schedule_type": "Contractor",
-    "salary_year_avg": "170000.0",
-    "job_posted_date": "2023-01-23 22:28:01",
-    "company_name": "Kelly Science, Engineering, Technology & Telecom"
-  },
-  {
-    "job_id": 1781684,
-    "job_title": "DTCC Data Analyst",
-    "job_location": "Anywhere",
-    "job_schedule_type": "Full-time",
-    "salary_year_avg": "170000.0",
-    "job_posted_date": "2023-10-06 00:01:41",
-    "company_name": "Robert Half"
-  },
-  {
-    "job_id": 1525451,
-    "job_title": "Manager, Data Analyst",
-    "job_location": "Anywhere",
-    "job_schedule_type": "Full-time",
-    "salary_year_avg": "167000.0",
-    "job_posted_date": "2023-04-18 07:01:17",
-    "company_name": "Uber"
-  },
-  {
-    "job_id": 1246069,
-    "job_title": "Data Analyst",
-    "job_location": "Anywhere",
-    "job_schedule_type": "Full-time",
-    "salary_year_avg": "165000.0",
-    "job_posted_date": "2023-12-08 09:16:37",
-    "company_name": "Plexus Resource Solutions"
-  },
-  {
-    "job_id": 712473,
-    "job_title": "Data Analyst",
-    "job_location": "Anywhere",
-    "job_schedule_type": "Full-time",
-    "salary_year_avg": "165000.0",
-    "job_posted_date": "2023-08-14 16:01:19",
-    "company_name": "Get It Recruit - Information Technology"
-  },
-  {
-    "job_id": 1799883,
-    "job_title": "Principal Data Science Analyst- Remote",
-    "job_location": "Anywhere",
-    "job_schedule_type": "Full-time",
-    "salary_year_avg": "164746.0",
-    "job_posted_date": "2023-04-14 12:05:19",
-    "company_name": "Mayo Clinic"
-  },
-  {
-    "job_id": 1423236,
-    "job_title": "Principal Data Science Analyst- Remote",
-    "job_location": "Anywhere",
-    "job_schedule_type": "Full-time",
-    "salary_year_avg": "164746.0",
-    "job_posted_date": "2023-01-13 13:04:39",
-    "company_name": "Mayo Clinic"
-  },
-  {
-    "job_id": 618890,
-    "job_title": "Principal Data Intelligence Analyst - Cardiac - Remote",
-    "job_location": "Anywhere",
-    "job_schedule_type": "Full-time",
-    "salary_year_avg": "163500.0",
-    "job_posted_date": "2023-09-20 13:00:44",
-    "company_name": "CEDARS-SINAI"
-  },
-  {
-    "job_id": 918213,
-    "job_title": "Senior - Data Analyst",
-    "job_location": "Anywhere",
-    "job_schedule_type": "Full-time",
-    "salary_year_avg": "160515.0",
-    "job_posted_date": "2023-06-14 21:01:17",
-    "company_name": "DIRECTV"
   }
 ]
