@@ -14,4 +14,4 @@ WHERE job_title_short = 'Data Analyst'
     AND job_work_from_home = TRUE
 GROUP BY skills
 ORDER BY avg_salary DESC
-LIMIT 25
+LIMIT 25;
