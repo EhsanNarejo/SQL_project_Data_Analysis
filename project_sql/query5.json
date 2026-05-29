@@ -1,0 +1,52 @@
+[
+  {
+    "skills": "sql",
+    "demand_count": "7291",
+    "avg_salary": "97237.16"
+  },
+  {
+    "skills": "excel",
+    "demand_count": "4611",
+    "avg_salary": "87288.21"
+  },
+  {
+    "skills": "python",
+    "demand_count": "4330",
+    "avg_salary": "101397.22"
+  },
+  {
+    "skills": "tableau",
+    "demand_count": "3745",
+    "avg_salary": "99287.65"
+  },
+  {
+    "skills": "power bi",
+    "demand_count": "2609",
+    "avg_salary": "97431.30"
+  },
+  {
+    "skills": "r",
+    "demand_count": "2142",
+    "avg_salary": "100498.77"
+  },
+  {
+    "skills": "sas",
+    "demand_count": "933",
+    "avg_salary": "98902.37"
+  },
+  {
+    "skills": "sas",
+    "demand_count": "933",
+    "avg_salary": "98902.37"
+  },
+  {
+    "skills": "looker",
+    "demand_count": "868",
+    "avg_salary": "103795.30"
+  },
+  {
+    "skills": "azure",
+    "demand_count": "821",
+    "avg_salary": "111225.10"
+  }
+]

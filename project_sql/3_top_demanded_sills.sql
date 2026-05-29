@@ -1,5 +1,5 @@
-// * * * Question: What are the most in - demand skills for remote Data Analyst roles ? * * - Identify the top 5 most frequently requested skills in remote Data Analyst job postings.- Focus on remote Data Analyst roles across all salary ranges.- Why ? Highlights the skills most commonly sought by employers,
-helping aspiring Data Analysts understand which skills are currently in highest demand.* /
+/*Question: What are the most in - demand skills for remote Data Analyst roles ? * * - Identify the top 5 most frequently requested skills in remote Data Analyst job postings.- Focus on remote Data Analyst roles across all salary ranges.- Why ? Highlights the skills most commonly sought by employers,
+ helping aspiring Data Analysts understand which skills are currently in highest demand.*/
 SELECT skills,
     COUNT(skills_job_dim.job_id) AS demand_count
 FROM job_postings_fact
