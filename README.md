@@ -199,14 +199,6 @@ Throughout this project, I strengthened several key SQL and analytical skills:
 
 This project enhanced my SQL skills and provided valuable insights into the data analyst job market. The findings from the analysis serve as a guide to prioritizing skill development and job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
 
-### Closing Thought
-
-Got it — your current closing thought is too “analysis summary” and not enough **personal reflection on the project experience**, which is what that section is supposed to be.
-
-Here’s a corrected **README-ready Closing Thought** that matches your intent:
-
----
-
 ## Closing Thought
 
 This project gave me hands-on experience applying SQL to a real-world dataset and helped me understand how data analysis is used to extract meaningful insights from job market trends. It also strengthened my confidence in writing structured queries and thinking analytically. Overall, it was a valuable learning experience that reinforced what I’ve studied in the course and showed me how SQL can be used to support real career and decision-making insights in data analytics.
